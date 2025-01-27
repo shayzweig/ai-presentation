@@ -1,31 +1,3 @@
-{
-  "name": "ai-presentation",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "chart.js": "^4.4.7",
-    "lucide-react": "^0.474.0",
-    "next": "15.1.6",
-    "react": "^19.0.0",
-    "react-chartjs-2": "^5.3.0",
-    "react-dom": "^19.0.0",
-    "recharts": "^2.15.0"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.6",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44a8601c57e4aabf574bb86647b496ade7619259e92005817995b91aca029672
+size 681
