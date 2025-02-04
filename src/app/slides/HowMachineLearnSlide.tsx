@@ -36,7 +36,7 @@ const StepCard = ({ icon: Icon, title, description, isActive }: {
 const DataExample = ({ number }: { number: string }) => (
   <div className="flex items-center gap-4 border-2 border-gray-700 rounded-lg p-4">
     <div className="w-16 h-16 bg-black rounded-lg flex items-center justify-center">
-      <img src={`/mnist-${number}.png`} alt={`MNIST digit ${number}`} className="w-12 h-12 object-contain" />
+      <img src={`/mnist/mnist-${number}.png`} alt={`MNIST digit ${number}`} className="w-12 h-12 object-contain" />
     </div>
     <div className="flex flex-col">
       <span className="text-sm text-gray-400">תיוג:</span>

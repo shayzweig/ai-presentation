@@ -46,8 +46,8 @@ const WhatIsAISlide = () => {
   const examples = [
     {
       images: [
-        { src: '/chatgpt-logo.png', alt: 'ChatGPT Logo' },
-        { src: '/siri-logo.png', alt: 'Siri Logo' }
+        { src: '/logos/chatgpt-logo.png', alt: 'ChatGPT Logo' },
+        { src: '/logos/siri-logo.png', alt: 'Siri Logo' }
       ],
       title: "צ'אט ועוזרים וירטואליים",
       description: "ChatGPT, Siri ודומיהם עוזרים לנו בכתיבה, למידה פתרון בעיות והתמודדות עם משימות יומיומיות.",
@@ -55,7 +55,7 @@ const WhatIsAISlide = () => {
     },
     {
       images: [
-        { src: '/midjourney-logo.png', alt: 'Midjourney Logo' }
+        { src: '/logos/midjourney-logo.png', alt: 'Midjourney Logo' }
       ],
       title: "עיבוד תמונה",
       description: "זיהוי פנים בטלפון, פילטרים בסנאפצ'ט, יצירת תמונות ב-Midjourney ואפילו ניתוח אוטומטי של אירועי ספורט.",
@@ -63,8 +63,8 @@ const WhatIsAISlide = () => {
     },
     {
       images: [
-        { src: '/irobot-logo.png', alt: 'iRobot Logo' },
-        { src: '/tesla-logo.png', alt: 'Tesla Logo' }
+        { src: '/logos/irobot-logo.png', alt: 'iRobot Logo' },
+        { src: '/logos/tesla-logo.png', alt: 'Tesla Logo' }
       ],
       title: "רובוטיקה ומוביליות",
       description: "מכוניות אוטונומיות מתחילות להיות דבר שבשגרה, רובוטים מבצעים משימות החל מנקיון הבית ועד להרכבת רכיבית במפעלים.",
@@ -72,8 +72,8 @@ const WhatIsAISlide = () => {
     },
     {
       images: [
-        { src: '/netflix-logo.png', alt: 'Netflix Logo' },
-        { src: '/spotify-logo.png', alt: 'Spotify Logo' }
+        { src: '/logos/netflix-logo.png', alt: 'Netflix Logo' },
+        { src: '/logos/spotify-logo.png', alt: 'Spotify Logo' }
       ],
       title: "המלצות מותאמות אישית",
       description: "ספוטיפיי ונטפליקס משתמשים ב-AI כדי להמליץ על תכנים חדשים בהתאם לטעם האישי",
@@ -81,7 +81,7 @@ const WhatIsAISlide = () => {
     },
     {
       images: [
-        { src: '/google-logo.png', alt: 'Google Logo' }
+        { src: '/logos/google-logo.png', alt: 'Google Logo' }
       ],
       title: "חיפוש מתקדם",
       description: "מנועי חיפוש מבינים את הכוונה שלנו ומציגים תוצאות רלוונטיות",
@@ -89,8 +89,8 @@ const WhatIsAISlide = () => {
     },
     {
       images: [
-        { src: '/gmail-logo.png', alt: 'Gmail Logo' },
-        { src: '/whatsapp-logo.png', alt: 'WhatsApp Logo' }
+        { src: '/logos/gmail-logo.png', alt: 'Gmail Logo' },
+        { src: '/logos/whatsapp-logo.png', alt: 'WhatsApp Logo' }
       ],
       title: "אפליקציות יומיומיות",
       description: "תיקון שגיאות כתיב, תרגום אוטומטי, סינון ספאם בג'ימייל",

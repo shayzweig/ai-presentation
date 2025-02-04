@@ -19,7 +19,7 @@ const PredictionStep = ({
         <div className="flex flex-col items-center">
           <div className="text-xs text-gray-400">קלט</div>
           <div className="w-12 h-12 bg-black rounded flex items-center justify-center">
-            <img src={`/mnist-test-${actual}.png`} alt={`MNIST digit ${actual}`} className="w-10 h-10 object-contain" />
+            <img src={`/mnist/mnist-test-${actual}.png`} alt={`MNIST digit ${actual}`} className="w-10 h-10 object-contain" />
           </div>
           <div className="text-xs text-gray-400">
             תיוג: <span className="text-white">{actual}</span>

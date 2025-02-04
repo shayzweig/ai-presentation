@@ -21,7 +21,7 @@ const ProcessStep = ({
         <div className="flex flex-col items-center">
           <div className="text-sm text-gray-400">קלט</div>
           <div className="w-16 h-16 bg-black rounded flex items-center justify-center">
-            <img src={`/mnist-${actual}.png`} alt={`MNIST digit ${actual}`} className="w-14 h-14 object-contain" />
+            <img src={`/mnist/mnist-${actual}.png`} alt={`MNIST digit ${actual}`} className="w-14 h-14 object-contain" />
           </div>
           <div className="text-sm text-gray-400">
             תיוג: <span className="text-white">{actual}</span>
