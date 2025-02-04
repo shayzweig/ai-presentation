@@ -9,19 +9,41 @@ const NeuralNetworkSlide = () => {
     {
       title: "הנוירון המלאכותי",
       description: "יחידת הבניין הבסיסית של רשתות נוירונים",
-      imagePath: "/neural/single-neuron.png"
+      imagePath: "/neural/single-neuron.png",
+      source: {
+        text: "מקור: arXiv:2408.11395",
+        url: "https://arxiv.org/abs/2408.11395"
+      }
     },
     {
       title: "רשת נוירונים פשוטה",
       description: "מספר שכבות של נוירונים המחוברים ביניהם",
-      imagePath: "/neural/simple-network.png"
+      imagePath: "/neural/simple-network.png",
+      source: {
+        text: "מקור: arXiv:2408.11395",
+        url: "https://arxiv.org/abs/2408.11395"
+      }
     },
     {
       title: "ארכיטקטורות מתקדמות",
       description: "רשתות קונבולוציה לעיבוד תמונה וטרנספורמרים לעיבוד טקסט",
       images: [
-        { path: "/neural/cnn.png", title: "רשת קונבולוציה (CNN)" },
-        { path: "/neural/transformer.png", title: "ארכיטקטורת טרנספורמר" }
+        { 
+          path: "/neural/cnn.png", 
+          title: "רשת קונבולוציה (CNN)",
+          source: {
+            text: "מקור: Bataineh et al., 2023",
+            url: "https://doi.org/10.3390/math11051141"
+          }
+        },
+        { 
+          path: "/neural/transformer.png", 
+          title: "ארכיטקטורת טרנספורמר",
+          source: {
+            text: "מקור: arXiv:1706.03762",
+            url: "https://arxiv.org/abs/1706.03762"
+          }
+        }
       ]
     }
   ];
@@ -69,9 +91,14 @@ const NeuralNetworkSlide = () => {
                         alt={image.title}
                         className="w-full h-full object-contain"
                       />
-                    </div>
-                    <div className="text-center text-sm text-gray-400">
-                      {image.title}
+                        <div className="text-center text-sm text-gray-400">
+                          {image.title + " "} 
+                          {image.source && (
+                          <a href={image.source.url} target="_blank" rel="noopener noreferrer" className="text-xs">
+                            {image.source.text}
+                          </a>
+                          )}
+                        </div>
                     </div>
                   </div>
                 ))}
@@ -83,6 +110,13 @@ const NeuralNetworkSlide = () => {
                   alt={sections[activeSection].title}
                   className="w-full h-full object-contain"
                 />
+                <div className="text-center text-sm text-gray-400">
+                  {sections[activeSection].source && (
+                    <a href={sections[activeSection].source.url} target="_blank" rel="noopener noreferrer" className="text-xs">
+                      {sections[activeSection].source.text}
+                    </a>
+                  )}
+                </div>
               </div>
             )}
           </div>
